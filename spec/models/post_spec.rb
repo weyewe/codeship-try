@@ -14,4 +14,9 @@ RSpec.describe Post, type: :model do
      
      a.persisted?.should be_truthy
   end
+  
+  it "should perform correct arithmetic" do
+    (5+5).should == 10 
+  end
+  
 end
