@@ -26,4 +26,9 @@ RSpec.describe Post, type: :model do
   
   end
   
+  it "should perform correct modulo" do
+    (100%9).should_not == 0 
+    (100%9).should == 1 
+  end
+  
 end
