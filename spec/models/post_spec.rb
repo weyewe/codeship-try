@@ -19,4 +19,11 @@ RSpec.describe Post, type: :model do
     (5+5).should == 10 
   end
   
+  it "should perform correct multiplication" do
+    (5*5).should == 25 
+    
+    (5+5).should_not == 15
+  
+  end
+  
 end
